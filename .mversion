@@ -1,0 +1,7 @@
+{
+  "commitMessage": "build: v%s",
+  "scripts": {
+    "postcommit": "git push && git push --tags",
+    "precommit": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md"
+  }
+}
