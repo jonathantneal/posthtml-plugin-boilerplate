@@ -34,6 +34,7 @@
   "main": "lib",
   "repository": "posthtml/posthtml-plugin-boilerplate",
   "scripts": {
+    "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md",
     "lint": "standard | snazzy",
     "release-major": "mversion major",
     "release-minor": "mversion minor",
