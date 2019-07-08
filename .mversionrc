@@ -1,5 +1,5 @@
 {
-  "commitMessage": "build: v%s",
+  "commitMessage": "v%s",
   "scripts": {
     "postcommit": "git push && git push --tags"
   }
