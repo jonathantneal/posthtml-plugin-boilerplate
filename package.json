@@ -33,7 +33,7 @@
   "main": "lib",
   "repository": "posthtml/posthtml-plugin-boilerplate",
   "scripts": {
-    "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md && git commit -m \"build: update changelog\"",
+    "version": "git add package.json && git commit -m \"v%s\" && conventional-changelog -i changelog.md -s -r 0 && git add changelog.md && git commit -m \"build: update changelog\"",
     "lint": "standard | snazzy",
     "release-major": "npm version major",
     "release-minor": "npm version minor",
