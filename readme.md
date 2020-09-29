@@ -5,7 +5,6 @@
 [![Build][build]][build-badge]
 [![Coverage][cover]][cover-badge]
 [![Standard Code Style][style]][style-url]
-[![Chat][chat]][chat-badge]
 
 Clone this repo and explain what your plugin do and why thousands of people need it ;)
 
@@ -102,7 +101,3 @@ See [PostHTML Guidelines](https://github.com/posthtml/posthtml/tree/master/docs)
 
 [cover]: https://coveralls.io/repos/posthtml/posthtml/badge.svg?branch=master
 [cover-badge]: https://coveralls.io/r/posthtml/posthtml?branch=master
-
-
-[chat]: https://badges.gitter.im/posthtml/posthtml.svg
-[chat-badge]: https://gitter.im/posthtml/posthtml?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"
